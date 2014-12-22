@@ -15,7 +15,7 @@ class Toy
   end
 end
 
- multiply_and_print 3, 4, "Result is: "
+ Toy.new.multiply_and_print 3, 4, "Result is: "
  # => Result is: 12
 ```
 
