@@ -19,4 +19,19 @@ end
  # => Result is: 12
 ```
 
+Errors
+------
+Invalid input will raise an ArgumentTypeError:
+```Ruby
+TypedMethods::ArgumentTypeError: String expected, Fixnum found.
+```
+
+Invalid output will raise a ReturnTypeError:
+```Ruby
+TypedMethods::ReturnTypeError: String expected, Fixnum found.
+```
+
+Disclaimer
+---------
+
 This is just an experiment.
