@@ -1,7 +1,7 @@
 Typed Methods
 =============
 
-Add some type safety to your Ruby methods.
+Add some type safety to your Ruby methods. Methods defined with `tdef` will check types of arguments and return values.
 
 Usage
 ----
